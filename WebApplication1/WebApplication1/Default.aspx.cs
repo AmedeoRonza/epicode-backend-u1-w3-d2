@@ -13,5 +13,17 @@ namespace WebApplication1
         {
 
         }
+
+        protected void Registrati_Click(object sender, EventArgs e)
+        {
+            HttpCookie cookie = new HttpCookie("ASPNET_COOKIE"); 
+            cookie.Values["nome"] = Nome.Text; 
+            cookie.Values["cognome"] = Cognome.Text; 
+            cookie.Expires = DateTime.Now.AddDays(10); 
+
+            Response.Cookies.Add(cookie); 
+
+            Response.Redirect("WebForm2");
+        }
     }
 }

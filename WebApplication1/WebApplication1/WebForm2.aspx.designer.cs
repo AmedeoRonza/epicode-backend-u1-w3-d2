@@ -11,34 +11,34 @@ namespace WebApplication1
 {
 
 
-    public partial class _Default
+    public partial class WebForm2
     {
 
         /// <summary>
-        /// Controllo Nome.
+        /// Controllo form1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nome;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controllo Cognome.
+        /// Controllo logout.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Cognome;
+        protected global::System.Web.UI.WebControls.Button logout;
 
         /// <summary>
-        /// Controllo Registrati.
+        /// Controllo DatiUtente.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Registrati;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl DatiUtente;
     }
 }
